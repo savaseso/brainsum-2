@@ -7,14 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form id="hashForm">
         <div>
             <label for="hash">My hash</label>
-            <input type="text">
+            <input  id="hash" type="text">
         </div>
         <div>
             <label for="message">Message</label>
-            <input type="text"> <br>
+            <input id="message" type="text"> <br>
         </div>
         <div>
              <input type="submit">
@@ -22,13 +22,13 @@
     </form>
     <table>
         <thead>
-            <th>
-                <tr>hash</tr>
-                <tr>message</tr>
-            </th>
+            <tr>
+                <th>Hash</th>
+                <th>Message</th>
+                <th></th>
+            </tr>
         </thead>
         <tbody id="hash_list">
-            
         </tbody>
     </table>
 <script src="./app.js"></script>
